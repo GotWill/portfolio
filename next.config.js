@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: {
+        domains: ['ethemestudio.com']
+    }
+}
 
 module.exports = nextConfig
