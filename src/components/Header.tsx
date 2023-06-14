@@ -14,30 +14,30 @@ export default function Header() {
     const [navBar, setNavBar] = useState(false)
 
     return (
-        <header className="max-w-7xl w-full m-auto p-10 bg-primary md-mobile:p-8">
-            <div className="flex justify-around items-center text-white">
+        <header className=" p-10 bg-primary md-mobile:p-8">
+            <div className="max-w-7xl w-full m-auto flex justify-around items-center text-white">
                 <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/fungi_logo.png" width={200} height={200} alt="" />
 
                 <nav className="md-mobile:hidden">
                     <ul className="flex items-center gap-8">
                         <li>
-                            <Link href="#" className="text-sm font-bold hover:text-primary active:text-primary">
+                            <Link href="/" className="text-sm font-bold hover:text-primary active:text-primary">
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="font-bold text-sm hover:text-primary active:text-primary">
+                            <Link href="#about" className="font-bold text-sm hover:text-primary active:text-primary">
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="font-bold text-sm hover:text-primary active:text-primary">
-                                Portfolio
+                            <Link href="#projetos" className="font-bold text-sm hover:text-primary active:text-primary">
+                                Projetos
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="font-bold text-sm hover:text-primary active:text-primary">
-                                Service
+                            <Link href="#servicos" className="font-bold text-sm hover:text-primary active:text-primary">
+                                Serviços
                             </Link>
                         </li>
                         <li>

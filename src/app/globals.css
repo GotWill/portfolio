@@ -9,6 +9,10 @@
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -21,4 +25,23 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+
+
+::-webkit-scrollbar{
+  width: .5rem;
+  height: 1rem;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+  background: #44cbe1;
+  border-radius: 1rem;
+}
+
+
+::-webkit-scrollbar-track{
+  background: transparent;
 }

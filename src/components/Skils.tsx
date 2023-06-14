@@ -3,9 +3,12 @@ import Image from "next/image";
 
 export default function Skils() {
     return (
-        <section className="bg-secondary pt-14 pb-24">
+        <section className="bg-secondary pt-28 pb-20">
             <div className="max-w-4xl w-full m-auto flex items-center justify-between md-mobile:justify-center">
-                <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/design-elements/intro-element-1.png" width={50} height={47} alt="" className="md-mobile:hidden" />
+                <div className="animate-bounce">
+                <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/design-elements/intro-element-1.png" width={50} height={47} alt="" className="md-mobile:hidden "  />
+
+                </div>
                 <h3 className="text-white font-bold text-xl">BEM VINDO AO MEU MUNDO</h3>
                 <span></span>
             </div>

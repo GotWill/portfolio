@@ -19,6 +19,7 @@ module.exports = {
         'btn1': '#44cbe1',
         'btn1-hover': '#1a91a5',
         'cards': '#2f2f2f',
+        'services-icon': 'rgba(255, 255, 255, 0.1)'
       },
 
       colors: {
@@ -26,7 +27,12 @@ module.exports = {
         'secondary': '#b0aac0'
       },
       borderColor: {
-        'primary': '#44cbe1'
+        'primary': '#44cbe1',
+        'secondary': '#474747',
+      },
+
+      transformOrigin: {
+        'cards-services': 'transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)'
       },
       screens: {
         'md-mobile': {
