@@ -1,47 +1,92 @@
-
-"use client"
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 
 import You from '../assets/eu.jpg'
 import IconMenu from "@/icons/iconMenu";
 import { useState } from "react";
 import MenuMobol from "./MenuMobol";
 import IconCloseOutline from "@/icons/iconCloseOutline";
+import { Link } from 'react-scroll';
+
+
 
 export default function Header() {
 
     const [navBar, setNavBar] = useState(false)
 
+    const [activeLink, setActiveLink] = useState('');
+
+
+    
+
+
+
     return (
-        <header className=" p-10 bg-primary md-mobile:p-8">
-            <div className="max-w-7xl w-full m-auto flex justify-around items-center text-white">
+        <header className="bg-about" id="home">
+            <div className="fixed z-[999] bg-about top-0 py-4 w-full border border-l-transparent border-secondary  flex justify-around items-center text-white">
                 <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/fungi_logo.png" width={200} height={200} alt="" />
 
                 <nav className="md-mobile:hidden">
                     <ul className="flex items-center gap-8">
                         <li>
-                            <Link href="/" className="text-sm font-bold hover:text-primary active:text-primary">
+                            <Link
+                                to="home"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                onClick={() => setActiveLink('home')}
+                                className={`text-sm font-bold hover:text-primary cursor-pointer active:text-primary ${activeLink === 'home' ? 'text-primary' : ''}`}>
+
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link href="#about" className="font-bold text-sm hover:text-primary active:text-primary">
-                                About
+                            <Link
+                                to="about"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                onClick={() => setActiveLink('about')}
+                                className={`text-sm font-bold hover:text-primary cursor-pointer active:text-primary ${activeLink === 'about' ? 'text-primary' : ''}`}>
+                                Sobre
                             </Link>
                         </li>
                         <li>
-                            <Link href="#projetos" className="font-bold text-sm hover:text-primary active:text-primary">
+                            <Link
+                                to="projetos"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                onClick={() => setActiveLink('projetos')}
+                                className={`text-sm font-bold hover:text-primary cursor-pointer active:text-primary ${activeLink === 'projetos' ? 'text-primary' : ''}`}>
                                 Projetos
                             </Link>
                         </li>
                         <li>
-                            <Link href="#servicos" className="font-bold text-sm hover:text-primary active:text-primary">
+                            <Link
+                                to="servicos"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                onClick={() => setActiveLink('servicos')}
+                                className={`text-sm font-bold hover:text-primary cursor-pointer active:text-primary ${activeLink === 'servicos' ? 'text-primary' : ''}`}>
+
                                 Serviços
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="font-bold text-sm hover:text-primary active:text-primary">
+                            <Link
+                                to="contato"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                onClick={() => setActiveLink('contato')}
+                                className={`text-sm font-bold hover:text-primary active:text-primary cursor-pointer ${activeLink === 'contato' ? 'text-primary' : ''}`}>
                                 Contato
                             </Link>
                         </li>
@@ -52,7 +97,7 @@ export default function Header() {
 
                     {
                         navBar ? <button className="px-2 py-2 border md:hidden z-10 relative" onClick={() => setNavBar(false)}>
-                            <IconCloseOutline width={20} height={20}/>
+                            <IconCloseOutline width={20} height={20} />
                         </button> : <button className="px-2 py-2 border md:hidden" onClick={() => setNavBar(true)}>
                             <IconMenu width={20} height={20} />
                         </button>
@@ -67,25 +112,26 @@ export default function Header() {
 
 
                 {
-                    navBar && <MenuMobol />
+                    navBar && <MenuMobol/>
                 }
 
 
             </div>
 
-            <div className="flex justify-center flex-col items-center gap-5 mt-3">
-                <Image src={You} width={200} height={200} alt="" className="rounded-full" />
-                <small className="font-bold text-white">Hello There, I'm</small>
+            <div className="flex  p-10 justify-center flex-col items-center gap-5 animate__animated animate__zoomIn animate__delay-3s 2s">
+                <Image src={You} width={200} height={200} alt="" className="rounded-full mt-20" />
+                <small className="font-bold text-white">Olá, eu sou</small>
                 <h1 className="font-bold text-white text-5xl md-mobile:text-4xl">Willian <strong className="text-primary">Pereira</strong></h1>
-                <span className="text-secondary text-xl">A Computer Programmer who loves to code in <strong className="text-white">Javascript</strong></span>
+                <span className="text-secondary text-xl text-center">Eu atuo como <strong className="text-white">freelancer</strong>, oferecendo meus serviços de forma independente para diversos projetos.</span>
 
                 <div className="flex items-center gap-5">
-                    <Link href="" className="bg-btn1 py-3 px-3 rounded-md text-white font-bold uppercase hover:bg-btn1-hover">
-                        Download CV
+                    <Link to="https://drive.google.com/file/d/1Ho3ZcUpZkDkvPLUkBE5Z8ieNHAwEBmHr/view?usp=sharing" target="_blank" className="bg-btn1 py-3 px-3 cursor-pointer rounded-md text-white font-bold uppercase hover:bg-btn1-hover">
+                        Visualizar CV
                     </Link>
 
-                    <Link href="" className="bg-transparent border-2 border-primary py-3 px-3 rounded-md text-white font-bold hover:bg-btn1-hover uppercase">
-                        About Me
+
+                    <Link to="#about" className="bg-transparent border-2 border-primary py-3 px-3 rounded-md text-white font-bold hover:bg-btn1-hover uppercase">
+                        Sobre
                     </Link>
                 </div>
             </div>

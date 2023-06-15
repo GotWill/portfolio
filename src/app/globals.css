@@ -27,6 +27,9 @@ html{
   }
 }
 
+body{
+  background: #222222;
+}
 
 
 ::-webkit-scrollbar{
@@ -37,7 +40,7 @@ html{
 
 
 ::-webkit-scrollbar-thumb{
-  background: #44cbe1;
+  background: #8257e5;
   border-radius: 1rem;
 }
 

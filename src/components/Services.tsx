@@ -1,17 +1,19 @@
 import IconMobile from "@/icons/iconMobile";
 import IconMonitor from "@/icons/iconMonitor";
 import Image from "next/image";
+import Title from "./Title";
+import IconEmail from "@/icons/iconEmail";
 
 export default function Services() {
     return (
         <section className="bg-about pt-28 pb-20" id="servicos">
             <div className="max-w-4xl w-full m-auto flex items-center justify-between md-mobile:justify-center">
                 <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/design-elements/intro-element-1.png" width={50} height={47} alt="" className="md-mobile:hidden" />
-                <h3 className="text-white font-bold text-xl">SERVIÇOS</h3>
+                <Title title="SERVIÇOS"/>
                 <span></span>
             </div>
             <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary pb-11">
-                Duis aute irure dolor in reprehen pteur sint occaecat cupidatat non proident, sunt in culim id est.
+            Desenvolvedor experiente oferecendo serviços de software, aplicativos e email marketing. Soluções personalizadas para impulsionar o crescimento do seu negócio. Entre em contato para saber mais.
             </p>
 
 
@@ -21,33 +23,34 @@ export default function Services() {
                     <div className="flex justify-center items-center bg-services-icon w-[96px] h-[96px] rounded-full group-hover:bg-btn1">
                         <IconMonitor width={36} height={36} className="text-primary group-hover:text-white" />
                     </div>
-                    <h3 className="text-white font-bold text-2xl">Desktop Apps</h3>
+                    <h3 className="text-white font-bold text-2xl md-mobile:text-xl">Web Development</h3>
                     <p className="text-secondary text-sm text-center">
-                        Yeprehe nderit in voluptate velit esse prehen pteur sint occaecat cupidat cillum dolore eu fugiat nulla pan proide ulpa rum.
+                    Desenvolvimento web profissional para impulsionar sua presença online. Soluções personalizadas e visualmente atraentes. Transforme sua visão em realidade.
+
+
+
+
+
 
 
                     </p>
                 </div>
-                <div className="w-[370px] border border-secondary py-14 px-12 rounded-xl flex flex-col justify-center items-center gap-5 hover:bg-[#3c3c3c] group ">
+                <div className="w-[370px] h-[381px] border border-secondary py-14 px-12 rounded-xl flex flex-col justify-center items-center gap-5 hover:bg-[#3c3c3c] group ">
                     <div className="flex justify-center items-center bg-services-icon w-[96px] h-[96px] rounded-full group-hover:bg-btn1">
                         <IconMobile width={36} height={36} className="text-primary group-hover:text-white" />
                     </div>
-                    <h3 className="text-white font-bold text-2xl">Desktop Apps</h3>
+                    <h3 className="text-white font-bold text-2xl md-mobile:text-xl">Mobile Apps</h3>
                     <p className="text-secondary text-sm text-center">
-                        Yeprehe nderit in voluptate velit esse prehen pteur sint occaecat cupidat cillum dolore eu fugiat nulla pan proide ulpa rum.
-
-
+                    Desenvolvimento de aplicativos móveis personalizados para aumentar sua presença digital. Experiências intuitivas que cativam os usuários.
                     </p>
                 </div>
                 <div className=" w-[370px] border border-secondary py-14 px-12 rounded-xl flex flex-col justify-center items-center gap-5 hover:bg-[#3c3c3c] group ">
                     <div className="flex justify-center items-center bg-services-icon w-[96px] h-[96px] rounded-full group-hover:bg-btn1">
-                        <IconMonitor width={36} height={36} className="text-primary group-hover:text-white" />
+                        <IconEmail width={36} height={36} className="text-primary group-hover:text-white" />
                     </div>
-                    <h3 className="text-white font-bold text-2xl">Desktop Apps</h3>
+                    <h3 className="text-white font-bold text-2xl md-mobile:text-xl">E-mail Marketing</h3>
                     <p className="text-secondary text-sm text-center">
-                        Yeprehe nderit in voluptate velit esse prehen pteur sint occaecat cupidat cillum dolore eu fugiat nulla pan proide ulpa rum.
-
-
+                    E-mail marketing estratégico para aumentar o engajamento e as conversões. Alcance seu público-alvo de forma eficaz e impulsione seus resultados.
                     </p>
                 </div>
             </div>

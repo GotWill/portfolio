@@ -16,18 +16,18 @@ module.exports = {
         'primary': '#2e313e',
         'secondary': '#222222',
         'about': '#2a2a2a',
-        'btn1': '#44cbe1',
-        'btn1-hover': '#1a91a5',
+        'btn1': '#8257e5',
+        'btn1-hover': '#633bbc',
         'cards': '#2f2f2f',
         'services-icon': 'rgba(255, 255, 255, 0.1)'
       },
 
       colors: {
-        'primary':'#44cbe1',
+        'primary':'#8257e5',
         'secondary': '#b0aac0'
       },
       borderColor: {
-        'primary': '#44cbe1',
+        'primary': '#8257e5',
         'secondary': '#474747',
       },
 

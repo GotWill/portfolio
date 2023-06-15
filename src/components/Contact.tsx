@@ -1,9 +1,11 @@
+import Title from "./Title";
+
 export default function Contact(){
     return (
         <section className="bg-secondary pt-28 pb-20" id="contato">
                 <div className="flex flex-col justify-center items-center">
-                    <h3 className="text-white font-bold text-xl">ENTRAR EM CONTATO</h3>
-                    <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary pb-11">Mas se a dor da raiva está na repreensão, ficam cegos pelo desejo, e não saem, estão em quem está.</p>
+                    <Title title="COMO POSSO TE AJUDAR?"/>
+                    <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary pb-11">Preencha o formulário e em breve entrarei em contato!</p>
                 </div>
 
 
