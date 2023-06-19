@@ -4,10 +4,10 @@ import Title from "./Title";
 
 export default function Portfolio(){
     return (
-        <section className="bg-secondary pt-28 pb-20" id="projetos">
+        <section className="bg-secondary pt-28 pb-20  border border-t-transparent border-l-transparent border-r-transparent border-b-secondary" id="projetos">
              <div className="max-w-4xl w-full m-auto flex items-center justify-between md-mobile:justify-center">
                 <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/design-elements/intro-element-1.png" width={50} height={47} alt="" className="md-mobile:hidden" />
-                <Title title="PORTFOLIO"/>
+                <Title title="PROJETOS"/>
                 <span></span>
              </div>
             <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary pb-5">

@@ -6,7 +6,7 @@ import IconEmail from "@/icons/iconEmail";
 
 export default function Services() {
     return (
-        <section className="bg-about pt-28 pb-20" id="servicos">
+        <section className="bg-about pt-28 pb-20  border border-t-transparent border-l-transparent border-r-transparent border-b-secondary" id="servicos">
             <div className="max-w-4xl w-full m-auto flex items-center justify-between md-mobile:justify-center">
                 <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/design-elements/intro-element-1.png" width={50} height={47} alt="" className="md-mobile:hidden" />
                 <Title title="SERVIÇOS"/>

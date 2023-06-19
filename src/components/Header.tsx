@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import Link from "next/link";
 
 import You from '../assets/eu.jpg'
 import IconMenu from "@/icons/iconMenu";
@@ -17,15 +16,14 @@ export default function Header() {
     const [activeLink, setActiveLink] = useState('');
 
 
-    
+
 
 
 
     return (
-        <header className="bg-about" id="home">
+        <header className="bg-about border border-l-transparent border-r-transparent border-b-secondary" id="home">
             <div className="fixed z-[999] bg-about top-0 py-4 w-full border border-l-transparent border-secondary  flex justify-around items-center text-white">
-                <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/fungi_logo.png" width={200} height={200} alt="" />
-
+                <h1 className="text-5xl font-bold">W<strong className="text-primary">P</strong></h1>
                 <nav className="md-mobile:hidden">
                     <ul className="flex items-center gap-8">
                         <li>
@@ -112,7 +110,7 @@ export default function Header() {
 
 
                 {
-                    navBar && <MenuMobol/>
+                    navBar &&  <MenuMobol/>
                 }
 
 
@@ -121,16 +119,16 @@ export default function Header() {
             <div className="flex  p-10 justify-center flex-col items-center gap-5 animate__animated animate__zoomIn animate__delay-3s 2s">
                 <Image src={You} width={200} height={200} alt="" className="rounded-full mt-20" />
                 <small className="font-bold text-white">Olá, eu sou</small>
-                <h1 className="font-bold text-white text-5xl md-mobile:text-4xl">Willian <strong className="text-primary">Pereira</strong></h1>
+                <h2 className="font-bold text-white text-5xl md-mobile:text-4xl">Willian <strong className="text-primary">Pereira</strong></h2>
                 <span className="text-secondary text-xl text-center">Eu atuo como <strong className="text-white">freelancer</strong>, oferecendo meus serviços de forma independente para diversos projetos.</span>
 
                 <div className="flex items-center gap-5">
-                    <Link to="https://drive.google.com/file/d/1Ho3ZcUpZkDkvPLUkBE5Z8ieNHAwEBmHr/view?usp=sharing" target="_blank" className="bg-btn1 py-3 px-3 cursor-pointer rounded-md text-white font-bold uppercase hover:bg-btn1-hover">
+                    <Link to="https://drive.google.com/file/d/1Ho3ZcUpZkDkvPLUkBE5Z8ieNHAwEBmHr/view?usp=sharing" target="_blank" className="bg-btn1 py-3 px-3 cursor-pointer rounded-md text-white font-bold uppercase hover:bg-btn1-hover animate__animated animate__pulse animate__infinite">
                         Visualizar CV
                     </Link>
 
 
-                    <Link to="#about" className="bg-transparent border-2 border-primary py-3 px-3 rounded-md text-white font-bold hover:bg-btn1-hover uppercase">
+                    <Link to="about" className="bg-transparent border-2 border-primary py-3 px-3 rounded-md text-white font-bold hover:bg-btn1-hover uppercase cursor-pointer">
                         Sobre
                     </Link>
                 </div>
