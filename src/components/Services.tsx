@@ -3,16 +3,17 @@ import IconMonitor from "@/icons/iconMonitor";
 import Image from "next/image";
 import Title from "./Title";
 import IconEmail from "@/icons/iconEmail";
+import IconTools from "@/icons/iconTools";
 
 export default function Services() {
     return (
         <section className="bg-about pt-28 pb-20  border border-t-transparent border-l-transparent border-r-transparent border-b-secondary" id="servicos">
             <div className="max-w-4xl w-full m-auto flex items-center justify-between md-mobile:justify-center">
-                <Image src="https://ethemestudio.com/demo/fungi/3_programmer/image/design-elements/intro-element-1.png" width={50} height={47} alt="" className="md-mobile:hidden" />
+                <IconTools width={48} height={48} className="text-primary animate-bounce md-mobile:hidden" />
                 <Title title="SERVIÇOS"/>
                 <span></span>
             </div>
-            <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary pb-11">
+            <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary pb-11 md-mobile:px-3">
             Desenvolvedor experiente oferecendo serviços de software, aplicativos e email marketing. Soluções personalizadas para impulsionar o crescimento do seu negócio. Entre em contato para saber mais.
             </p>
 
@@ -26,12 +27,6 @@ export default function Services() {
                     <h3 className="text-white font-bold text-2xl md-mobile:text-xl">Web Development</h3>
                     <p className="text-secondary text-sm text-center">
                     Desenvolvimento web profissional para impulsionar sua presença online. Soluções personalizadas e visualmente atraentes. Transforme sua visão em realidade.
-
-
-
-
-
-
 
                     </p>
                 </div>

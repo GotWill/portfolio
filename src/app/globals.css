@@ -48,3 +48,12 @@ body{
 ::-webkit-scrollbar-track{
   background: transparent;
 }
+
+.bg-gradient-css {
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=2f2f2f&c2=222222&gt=c&gd=dbr
+*/
+background: #2F2F2F;
+background: conic-gradient(from 135deg, #2F2F2F, #222222);
+}

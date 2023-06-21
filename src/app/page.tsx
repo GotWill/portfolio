@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import Loading from "@/components/Loading";
 import IconWhatsapp from "@/icons/iconWhatsapp";
 import Link from "next/link";
+import Cta from '@/components/Cta';
 
 
 export default function Home() {
@@ -37,6 +38,7 @@ export default function Home() {
       <Header/>
       <Skils/>
       <About/>
+      <Cta/>
       <Portfolio/>
       <Services/>
       <Contact/>

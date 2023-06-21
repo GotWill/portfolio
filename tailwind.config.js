@@ -19,12 +19,13 @@ module.exports = {
         'btn1': '#8257e5',
         'btn1-hover': '#633bbc',
         'cards': '#2f2f2f',
-        'services-icon': 'rgba(255, 255, 255, 0.1)'
+        'services-icon': 'rgba(255, 255, 255, 0.1)',
       },
 
       colors: {
         'primary':'#8257e5',
-        'secondary': '#b0aac0'
+        'secondary': '#b0aac0',
+        'gradient': 'linear-gradient(90deg, rgba(46, 49, 62, 1.0), rgba(130, 87, 229, 1.0))',
       },
       borderColor: {
         'primary': '#8257e5',
