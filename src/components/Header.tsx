@@ -119,7 +119,7 @@ export default function Header() {
 
             </div>
 
-            <div className="flex  p-10 justify-center flex-col items-center gap-5 animate__animated animate__zoomIn animate__delay-3s 2s">
+            <div className="flex  p-10 justify-center flex-col items-center gap-5 animate__animated animate__zoomIn animate__delay-2s 2s">
                 <Image src={Iam} width={200} height={200} alt="" className="rounded-full mt-20" />
                 <small className="font-bold text-white">Olá, eu sou</small>
                 <h2 className="font-bold text-white text-5xl md-mobile:text-4xl">Willian <strong className="text-primary">Pereira</strong></h2>
