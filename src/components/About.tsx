@@ -4,7 +4,7 @@ import Iam from '../assets/bg.jpg'
 
 export default function About() {
     return (
-        <section className="bg-about pt-28 pb-20  border border-t-transparent border-l-transparent border-r-transparent border-b-secondary animate__animated animate__backInRight" id="about">
+        <section className="bg-about pt-28 pb-20  border border-t-transparent border-l-transparent border-r-transparent border-b-secondary" id="about">
             <div className="max-w-7xl w-full m-auto flex justify-around gap-10 px-6 md-note:flex-col md-note:px-0">
                 <div className="w-full md-note:flex md-note:justify-center  md-mobile:px-4">
                     <Image src={Iam} width={400} height={400} alt="" className="rounded w-full h-full" />

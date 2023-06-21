@@ -11,7 +11,7 @@ export default function Skils() {
 
 
     return (
-        <section className="bg-secondary pt-28 pb-20 animate__animated animate__backInLeft border border-t-transparent border-l-transparent border-r-transparent border-b-secondary">
+        <section className="bg-secondary pt-28 pb-20  border border-t-transparent border-l-transparent border-r-transparent border-b-secondary">
             <div className="max-w-4xl w-full m-auto flex items-center justify-between md-mobile:justify-center">
                 <IconLightbulbFlashFill width={48} height={48} className="text-primary animate-bounce md-mobile:hidden" />
 
