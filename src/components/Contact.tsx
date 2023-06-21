@@ -47,10 +47,13 @@ export default function Contact() {
                     text: "Sua mensagem não foi enviada, Tente mais tarde",
                     icon: "error",
                 });
+
             })
 
-
         reset()
+        setTimeout(() => {
+            location.reload();
+        },2000)
 
     }
     return (
