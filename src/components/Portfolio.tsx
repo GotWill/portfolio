@@ -68,7 +68,7 @@ export default function Portfolio() {
                     {
                         projects.map((item) => {
                             return (
-                                <div className="keen-slider__slide number-slide1" key={item.id}>
+                                <div className="keen-slider__slide number-slide1 md-mobile:h-[240px]" key={item.id}>
                                     <div className="rounded-xl overflow-hidden relative group">
                                         <Image src={item.imagePath} width={300} height={300} alt="" className="w-full" />
 
