@@ -4,7 +4,8 @@ import { Montserrat } from 'next/font/google'
 const inter = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Willian Pereira | Front-End | Desenvolvedor Software',
+  title: 'Willian Pereira | Front-End',
+  description: 'Desenvolvedor Software'
 }
 
 export default function RootLayout({
