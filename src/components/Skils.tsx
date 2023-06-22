@@ -11,15 +11,17 @@ export default function Skils() {
 
 
     return (
-        <section className="bg-secondary pt-28 pb-20  border border-t-transparent border-l-transparent border-r-transparent border-b-secondary">
+        <section className="bg-secondary pt-28 pb-20 animate__animated animate__backInLeft border border-t-transparent border-l-transparent border-r-transparent border-b-secondary">
             <div className="max-w-4xl w-full m-auto flex items-center justify-between md-mobile:justify-center">
-                <IconLightbulbFlashFill width={48} height={48} className="text-primary animate-bounce md-mobile:hidden" />
+                <div className="animate-bounce">
 
-                <Title title="MINHAS HABILIDADES" />
+                </div>
+
+                <Title title="FORÇAS E VALORES" />
                 <span></span>
             </div>
             <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary">
-                Inovação Constante: Acompanhamento das últimas tendências e adoção de melhores práticas.
+                Em minha jornada, descobri que minhas forças e valores são os pilares que impulsionam meu crescimento e sucesso.
             </p>
 
 
@@ -42,11 +44,7 @@ export default function Skils() {
                     <IconResponsive width={48} height={48} className="text-primary" />
                     <h4 className="text-white font-bold ">Design responsivo</h4>
                     <p className="text-secondary text-sm">
-                    Conhecimento em design responsivo para criar aplicativos e sites visualmente atraentes e funcionais em dispositivos diversos.
-
-
-
-
+                        Conhecimento em design responsivo para criar aplicativos e sites visualmente atraentes e funcionais em dispositivos diversos.
 
                     </p>
 
@@ -56,10 +54,11 @@ export default function Skils() {
                 </div>
 
 
+
                 <div className="bg-cards relative p-10 rounded-xl flex flex-col gap-3 w-[350px] group">
                     <IconRocketSharp width={48} height={48} className="text-primary" />
                     <h4 className="text-white font-bold ">Aprendizado contínuo</h4>
-                    <p className="text-secondary">Comprometido com o aprendizado contínuo, busco constantemente expandir meus conhecimentos e habilidades.</p>
+                    <p className="text-secondary text-sm">Comprometido com o aprendizado contínuo, busco constantemente expandir meus conhecimentos e habilidades.</p>
 
 
                     <div className="hidden   group-hover:block after:transition after:bg-btn1  after:absolute after:-z-10 after:w-full after:h-full after:top-0 after:left-0 after:rounded-xl after:origin-bottom after:-rotate-3" />
