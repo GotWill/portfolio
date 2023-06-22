@@ -19,10 +19,16 @@ export default function Portfolio() {
         breakpoints: {
             '(max-width: 768px)': {
                 slides: {
+                    perView: 2,
+                    spacing: 20
+                }
+            },
+            '(max-width: 500px)': {
+                slides: {
                     perView: 1,
                     spacing: 20
                 }
-            }
+            },
         },
         slides: {
             perView: 3,
