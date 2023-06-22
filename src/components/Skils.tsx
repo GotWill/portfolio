@@ -28,7 +28,7 @@ export default function Skils() {
                     <IconLightbulb width={48} height={48} className="text-primary" />
                     <h4 className="text-white font-bold ">Resolução de problemas</h4>
                     <p className="text-secondary text-sm">
-                        apacidade de identificar e solucionar problemas técnicos, depurar erros e otimizar o desempenho de aplicativos e sistemas.
+                        Capacidade de identificar e solucionar problemas técnicos, depurar erros e otimizar o desempenho de aplicativos e sistemas.
                     </p>
 
 
