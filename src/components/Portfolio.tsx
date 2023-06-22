@@ -55,7 +55,7 @@ export default function Portfolio() {
                 <Title title="PROJETOS" />
                 <span></span>
             </div>
-            <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary pb-5">
+            <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary pb-5 md-mobile:px-3">
                 Descubra meus projetos inovadores e criativos. Explore minha área dedicada a soluções personalizadas que transformam ideias em realidade.
             </p>
 

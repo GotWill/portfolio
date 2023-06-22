@@ -20,7 +20,7 @@ export default function Skils() {
                 <Title title="FORÇAS E VALORES" />
                 <span></span>
             </div>
-            <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary">
+            <p className="mt-3 max-w-[600px] w-full m-auto text-center text-secondary md-mobile:px-3">
                 Em minha jornada, descobri que minhas forças e valores são os pilares que impulsionam meu crescimento e sucesso.
             </p>
 
@@ -48,12 +48,9 @@ export default function Skils() {
 
                     </p>
 
-
                     <div className="hidden after:-z-10  after:transition group-hover:block after:bg-btn1  after:absolute after:w-full after:h-full after:top-0 after:left-0 after:rounded-xl after:origin-bottom after:-rotate-3" />
 
                 </div>
-
-
 
                 <div className="bg-cards relative p-10 rounded-xl flex flex-col gap-3 w-[350px] group">
                     <IconRocketSharp width={48} height={48} className="text-primary" />
@@ -64,12 +61,6 @@ export default function Skils() {
                     <div className="hidden   group-hover:block after:transition after:bg-btn1  after:absolute after:-z-10 after:w-full after:h-full after:top-0 after:left-0 after:rounded-xl after:origin-bottom after:-rotate-3" />
 
                 </div>
-
-
-
-
-
-
             </div>
         </section>
     )
