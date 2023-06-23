@@ -57,3 +57,17 @@ body{
 background: #2F2F2F;
 background: conic-gradient(from 135deg, #2F2F2F, #222222);
 }
+
+.animate-teste{
+  animation: slider-text 20s ease-out infinite alternate;
+  white-space: nowrap;
+}
+
+@keyframes slider-text {
+  0% {
+    transform: translate3d(0, 0, 0);
+}
+100% {
+    transform: translate3d(-800px, 0, 0);
+}
+}

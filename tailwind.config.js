@@ -21,6 +21,9 @@ module.exports = {
         'cards': '#2f2f2f',
         'services-icon': 'rgba(255, 255, 255, 0.1)',
       },
+      animation: {
+        'slider-text': 'slider-text 10s ease-out infinite alternate'
+      },
 
       colors: {
         'primary':'#8257e5',
@@ -43,6 +46,17 @@ module.exports = {
           'max': '1050px',
         },
         
+      },
+
+      keyframes: {
+        'slider-text': {
+          '0': {
+            transform: 'translate3d(1000px, 0, 0)',
+          },
+          '100%': {
+            transform: 'translate3d(0, 0, 0)',
+          }
+        }
       }
     },
   },

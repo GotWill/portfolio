@@ -13,6 +13,7 @@ import Loading from "@/components/Loading";
 import IconWhatsapp from "@/icons/iconWhatsapp";
 import Link from "next/link";
 import Cta from '@/components/Cta';
+import Slider from '@/components/Slider';
 
 
 export default function Home() {
@@ -37,6 +38,7 @@ export default function Home() {
 
       <Header/>
       <Skils/>
+      <Slider/>
       <About/>
       <Cta/>
       <Portfolio/>
