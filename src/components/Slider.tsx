@@ -11,6 +11,13 @@ export default function Slider(){
                 <h6 className="font-bold text-primary">Desenvolvedor Mobile</h6>
                 <IconBolt width={25} height={25} className="text-primary"/>
 
+                <h6 className="font-bold text-primary">Performance</h6>
+                <IconBolt width={25} height={25} className="text-primary"/>
+                <h6 className="font-bold text-primary">Acessibilidade</h6>
+                <IconBolt width={25} height={25} className="text-primary"/>
+
+
+              
                
 
                 

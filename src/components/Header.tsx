@@ -16,11 +16,6 @@ export default function Header() {
 
     const [activeLink, setActiveLink] = useState('');
 
-
-
-
-
-
     return (
         <header className="bg-about border border-l-transparent border-r-transparent border-b-secondary" id="home">
             <div className="fixed z-[999] bg-about top-0 py-4 w-full border border-l-transparent border-secondary  flex justify-around items-center text-white">
