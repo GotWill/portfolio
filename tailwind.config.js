@@ -22,7 +22,7 @@ module.exports = {
         'services-icon': 'rgba(255, 255, 255, 0.1)',
       },
       animation: {
-        'slider-text': 'slider-text 10s ease-out infinite alternate'
+        'slider-text': 'slider-text 10s cubic-bezier(0.6, -0.28, 0.74, 0.05) infinite alternate;'
       },
 
       colors: {
