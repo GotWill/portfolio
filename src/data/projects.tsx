@@ -7,6 +7,8 @@ import EscolaPensar from '../assets/escola-pensar.png'
 import EscolaAps from '../assets/escolas-aps.png'
 import Toplive from '../assets/toplive.png'
 import FswTrips from '../assets/FSW-Trips.png'
+import RickAndMorty from '../assets/Rick-and-Morty.png'
+
 
 
 
@@ -53,6 +55,11 @@ export const itemProjects: Item[] = [
     {
         id: 8,
         imagePath: FswTrips,
+        url: 'https://fsw-gotwill.vercel.app/'
+    },
+    {
+        id: 9,
+        imagePath: RickAndMorty,
         url: 'https://fsw-gotwill.vercel.app/'
     },
 ]
