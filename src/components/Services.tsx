@@ -56,7 +56,7 @@ export default function Services() {
                     </div>
                     <h3 className="text-white font-bold text-2xl md-mobile:text-xl">E-commerce</h3>
                     <p className="text-secondary text-sm text-center">
-                    E-mail marketing estratégico para aumentar o engajamento e as conversões. Alcance seu público-alvo de forma eficaz e impulsione seus resultados.
+                    Desenvolvedor especializado em e-commerces, criando interfaces atraentes e funcionais para uma experiência de compra online de qualidade. Garantindo segurança e desempenho para impulsionar o sucesso do seu negócio.
                     </p>
                 </div>
             </div>
