@@ -8,7 +8,6 @@ import { useState } from "react";
 import Cross from '../assets/cross.png'
 import { itemProjects } from "@/data/projects";
 import { Item } from "@/@types/Item";
-import { url } from "inspector";
 
 export default function Portfolio() {
 
