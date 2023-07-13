@@ -4,6 +4,7 @@ import Image from "next/image";
 import Title from "./Title";
 import IconEmail from "@/icons/iconEmail";
 import IconTools from "@/icons/iconTools";
+import IconStore from "@/icons/iconStore";
 
 export default function Services() {
     return (
@@ -19,7 +20,7 @@ export default function Services() {
 
 
 
-            <div className="flex justify-center items-center gap-5 px-8 flex-wrap">
+            <div className="flex justify-start items-center gap-5 px-8 flex-wrap">
                 <div className="w-[370px] border border-secondary py-14 px-12 rounded-xl flex flex-col justify-center items-center gap-5 hover:bg-[#3c3c3c] group ">
                     <div className="flex justify-center items-center bg-services-icon w-[96px] h-[96px] rounded-full group-hover:bg-btn1">
                         <IconMonitor width={36} height={36} className="text-primary group-hover:text-white" />
@@ -44,6 +45,16 @@ export default function Services() {
                         <IconEmail width={36} height={36} className="text-primary group-hover:text-white" />
                     </div>
                     <h3 className="text-white font-bold text-2xl md-mobile:text-xl">E-mail Marketing</h3>
+                    <p className="text-secondary text-sm text-center">
+                    E-mail marketing estratégico para aumentar o engajamento e as conversões. Alcance seu público-alvo de forma eficaz e impulsione seus resultados.
+                    </p>
+                </div>
+
+                <div className=" w-[370px] border border-secondary py-14 px-12 rounded-xl flex flex-col justify-center items-center gap-5 hover:bg-[#3c3c3c] group ">
+                    <div className="flex justify-center items-center bg-services-icon w-[96px] h-[96px] rounded-full group-hover:bg-btn1">
+                        <IconStore width={36} height={36} className="text-primary group-hover:text-white" />
+                    </div>
+                    <h3 className="text-white font-bold text-2xl md-mobile:text-xl">E-commerce</h3>
                     <p className="text-secondary text-sm text-center">
                     E-mail marketing estratégico para aumentar o engajamento e as conversões. Alcance seu público-alvo de forma eficaz e impulsione seus resultados.
                     </p>

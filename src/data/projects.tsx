@@ -6,6 +6,7 @@ import Nani from '../assets/nani.png'
 import EscolaPensar from '../assets/escola-pensar.png'
 import EscolaAps from '../assets/escolas-aps.png'
 import Toplive from '../assets/toplive.png'
+import FswTrips from '../assets/FSW-Trips.png'
 
 
 
@@ -48,5 +49,10 @@ export const itemProjects: Item[] = [
         id: 7,
         imagePath: Toplive,
         url: 'https://www.topliveseguros.com.br/'
+    },
+    {
+        id: 8,
+        imagePath: FswTrips,
+        url: 'https://fsw-gotwill.vercel.app/'
     },
 ]
