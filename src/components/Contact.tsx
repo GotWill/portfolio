@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from '@hookform/resolvers/zod';
 import swal from "sweetalert";
 import IconEmailPlusOutline from "@/icons/IconEmailPlusOutline";
+import { toast } from "react-toastify"
 
 
 export default function Contact() {
@@ -35,25 +36,12 @@ export default function Contact() {
 
         emailjs.send("service_snflurw", "template_ynwmktj", templateParams, "AZsMidZ_Av1R_RW1t")
             .then((response) => {
-                swal({
-                    title: "Sucesso",
-                    text: "Sua mensagem foi enviado",
-                    icon: "success",
-                });
-
+                toast.success('Sua mensagem foi enviada com sucesso.', {position: 'top-right'})
             }, (err) => {
-                swal({
-                    title: "Ops",
-                    text: "Sua mensagem não foi enviada, Tente mais tarde",
-                    icon: "error",
-                });
-
+                toast.error('Sua mensagem não foi enviada, Tente mais tarde', {position: 'top-right'})
             })
 
         reset()
-        setTimeout(() => {
-            location.reload();
-        },2000)
 
     }
     return (

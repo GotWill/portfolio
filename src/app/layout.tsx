@@ -1,5 +1,6 @@
 import './globals.css'
 import { Montserrat } from 'next/font/google'
+import { ToastProvider } from '@/providers/toastProvider'
 
 const inter = Montserrat({ subsets: ['latin'] })
 
@@ -15,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ToastProvider>
+        {children}
+        </ToastProvider>
+       
+        </body>
     </html>
   )
 }
