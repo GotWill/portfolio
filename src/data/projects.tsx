@@ -6,13 +6,10 @@ import Nani from '../assets/nani.png'
 import EscolaPensar from '../assets/escola-pensar.png'
 import EscolaAps from '../assets/escolas-aps.png'
 import Toplive from '../assets/toplive.png'
-import FswTrips from '../assets/FSW-Trips.png'
-import RickAndMorty from '../assets/Rick-and-Morty.png'
-
-
-
-
-
+import FswTrips from '../assets/fsw-trips.png'
+import RickAndMorty from '../assets/rick-and-morty.png'
+import Imc from '../assets/imc.png'
+import Movies from '../assets/movies.png'
 
 
 
@@ -60,6 +57,16 @@ export const itemProjects: Item[] = [
     {
         id: 9,
         imagePath: RickAndMorty,
-        url: 'https://fsw-gotwill.vercel.app/'
+        url: 'https://rick-and-morty-gotwill.vercel.app/'
+    },
+    {
+        id: 10,
+        imagePath: Imc,
+        url: 'https://react-calc-imc-gotwill.vercel.app/'
+    },
+    {
+        id: 11,
+        imagePath: Movies,
+        url: 'https://api-movies-gotwill.vercel.app/'
     },
 ]
