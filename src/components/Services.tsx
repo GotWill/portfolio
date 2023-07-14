@@ -20,7 +20,7 @@ export default function Services() {
 
 
 
-            <div className="flex justify-start items-center gap-5 px-8 flex-wrap">
+            <div className="flex justify-center items-center gap-5 px-8 flex-wrap">
                 <div className="w-[370px] border border-secondary py-14 px-12 rounded-xl flex flex-col justify-center items-center gap-5 hover:bg-[#3c3c3c] group ">
                     <div className="flex justify-center items-center bg-services-icon w-[96px] h-[96px] rounded-full group-hover:bg-btn1">
                         <IconMonitor width={36} height={36} className="text-primary group-hover:text-white" />
