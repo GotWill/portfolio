@@ -179,7 +179,7 @@ export const itemsSkilTec: SkilsTech[] = [
     },
     {
         id: 14,
-        title: 'Postgresql',
+        title: 'Github',
         imagePath: <IconSquareGithub fill="#de4736" width={60} height={60}/>,
         bg: '#de4736'
     },
