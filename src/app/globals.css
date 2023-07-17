@@ -49,7 +49,7 @@ body{
   background: transparent;
 }
 
-.bg-gradient-css {
+.bg-gradient-css,.border-after:after {
 /*
 * Created with https://www.css-gradient.com
 * Gradient link: https://www.css-gradient.com/?c1=2f2f2f&c2=222222&gt=c&gd=dbr

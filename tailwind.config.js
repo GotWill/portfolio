@@ -20,9 +20,11 @@ module.exports = {
         'btn1-hover': '#633bbc',
         'cards': '#2f2f2f',
         'services-icon': 'rgba(255, 255, 255, 0.1)',
+        'html': '#fc4503'
       },
       animation: {
-        'slider-text': 'slider-text 10s cubic-bezier(0.6, -0.28, 0.74, 0.05) infinite alternate;'
+        'slider-text': 'slider-text 10s cubic-bezier(0.6, -0.28, 0.74, 0.05) infinite alternate;',
+        'spin-slow': 'spin 3s linear infinite',
       },
 
       colors: {
