@@ -41,7 +41,7 @@ export default function Home() {
       <Skils/>
       <Slider/>
       <About/>
-      <Cta/>
+      {/* <Cta/> */}
       <SkilsTec/>
       <Portfolio/>
       <Services/>
