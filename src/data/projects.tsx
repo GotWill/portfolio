@@ -24,6 +24,7 @@ import IconTailwindcss from "@/icons/iconTailwindcss";
 import IconMysql from "@/icons/iconMysql";
 import IconPostgresql from "@/icons/iconPostgresql";
 import IconSquareGithub from "@/icons/iconGitHub";
+import IconWordpress from "@/icons/iconWordPress";
 
 
 
@@ -181,6 +182,12 @@ export const itemsSkilTec: SkilsTech[] = [
         title: 'Postgresql',
         imagePath: <IconSquareGithub fill="#de4736" width={60} height={60}/>,
         bg: '#de4736'
+    },
+    {
+        id: 15,
+        title: 'Wordpress',
+        imagePath: <IconWordpress fill="#288eb0" width={60} height={60}/>,
+        bg: '#288eb0'
     }
     
 
