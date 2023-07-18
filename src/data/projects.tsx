@@ -95,34 +95,34 @@ export const itemsSkilTec: SkilsTech[] = [
         id: 1,
         title: 'HTML',
         imagePath: <IconHtml fill="#fc4503" width={60} height={60}/>,
-        bg: '#fc4503'
+        bg: 'html'
     },
 
     {
         id: 2,
         title: 'CSS',
         imagePath: <IconCss fill="#0328fc" width={60} height={60}/>,
-        bg: '#0328fc'
+        bg: 'css'
     },
     {
         id: 3,
         title: 'JavaScript',
         imagePath: <IconJs fill="#fefe01" width={60} height={60}/>,
-        bg: '#fefe01'
+        bg: 'js'
     },
 
     {
         id: 4,
         title: 'Typescript',
         imagePath: <IconTypescript  width={60} height={60}/>,
-        bg: '#007acc'
+        bg: 'typescript'
     },
 
     {
         id: 5,
         title: 'PHP',
         imagePath: <IconPhp fill="#4e5b98" width={60} height={60}/>,
-        bg: '#4e5b98'
+        bg: 'php'
     },
 
 
@@ -131,63 +131,63 @@ export const itemsSkilTec: SkilsTech[] = [
         id: 6,
         title: 'React JS',
         imagePath: <IconReact fill="#61dafb" width={60} height={60}/>,
-        bg: '#61dafb'
+        bg: 'react'
     },
 
     {
         id: 7,
         title: 'React Native',
         imagePath: <IconReact fill="#61dafb" width={60} height={60}/>,
-        bg: '#61dafb'
+        bg: 'react-native'
     },
 
     {
         id: 8,
         title: 'Next Js',
         imagePath: <IconNextjs fill="#FFF" width={60} height={60}/>,
-        bg: '#FFF'
+        bg: 'next',
     },
     {
         id: 9,
         title: 'Styled Components',
         imagePath: <IconStyledcomponents fill="#9f70b8" width={60} height={60}/>,
-        bg: '#9f70b8'
+        bg: 'styled-components'
     },
     {
         id: 10,
         title: 'Bootstrap',
         imagePath: <IconBootstrap fill="#712cf9" width={60} height={60}/>,
-        bg: '#712cf9'
+        bg: 'bootstrap'
     },
     {
         id: 11,
         title: 'Tailwind',
         imagePath: <IconTailwindcss fill="#38bdf8" width={60} height={60}/>,
-        bg: '#38bdf8'
+        bg: 'tailwind'
     },
     {
         id: 12,
         title: 'Mysql',
         imagePath: <IconMysql fill="#3e6e93" width={60} height={60}/>,
-        bg: '#3e6e93'
+        bg: 'mysql'
     },
     {
         id: 13,
         title: 'Postgresql',
         imagePath: <IconPostgresql fill="#336791" width={60} height={60}/>,
-        bg: '#336791'
+        bg: 'postgresql'
     },
     {
         id: 14,
         title: 'Github',
         imagePath: <IconSquareGithub fill="#de4736" width={60} height={60}/>,
-        bg: '#de4736'
+        bg: 'github'
     },
     {
         id: 15,
         title: 'Wordpress',
         imagePath: <IconWordpress fill="#288eb0" width={60} height={60}/>,
-        bg: '#288eb0'
+        bg: 'wordpress'
     }
     
 
