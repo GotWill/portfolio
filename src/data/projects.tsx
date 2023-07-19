@@ -25,6 +25,7 @@ import IconMysql from "@/icons/iconMysql";
 import IconPostgresql from "@/icons/iconPostgresql";
 import IconSquareGithub from "@/icons/iconGitHub";
 import IconWordpress from "@/icons/iconWordPress";
+import IconNodeJs from "@/icons/iconNode";
 
 
 
@@ -123,6 +124,13 @@ export const itemsSkilTec: SkilsTech[] = [
         title: 'PHP',
         imagePath: <IconPhp fill="#4e5b98" width={60} height={60}/>,
         bg: 'php'
+    },
+
+    {
+        id: 16,
+        title: 'Node',
+        imagePath: <IconNodeJs fill="#026e00" width={60} height={60}/>,
+        bg: 'node'
     },
 
 
