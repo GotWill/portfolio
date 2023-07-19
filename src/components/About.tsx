@@ -11,7 +11,7 @@ export default function About() {
                 </div>
 
                 <div className="flex flex-col gap-2  md-note:px-8 ">
-                    <span className="text-primary font-bold ">Sobre Min</span>
+                    <span className="text-primary font-bold ">Sobre mim</span>
                     <h2 className="text-white font-bold text-3xl">Willian Pereira</h2>
                     <p className="text-secondary text-lg">
                      Sou um desenvolvedor full stack com mais de 3 anos de experiência. Sou apaixonado por programação e estou constantemente atualizado sobre as últimas tendências e tecnologias do mercado. Meu objetivo é oferecer soluções inovadoras e eficientes para os desafios de desenvolvimento.
