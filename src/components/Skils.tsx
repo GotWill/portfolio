@@ -5,6 +5,7 @@ import IconResponsive from "@/icons/iconResponsive";
 import IconLightbulb from "@/icons/iconLightbulb";
 import IconRocketSharp from "@/icons/IconRocketSharp";
 import IconLightbulbFlashFill from "@/icons/IconLightbulbFlashFill";
+import IconUsers from "@/icons/iconUsers";
 
 export default function Skils() {
 
@@ -41,18 +42,17 @@ export default function Skils() {
                 </div>
 
                 <div className="bg-cards relative p-10 rounded-xl flex flex-col gap-3 w-[350px] h-[271px] group">
-                    <IconResponsive width={48} height={48} className="text-primary" />
-                    <h4 className="text-white font-bold ">Design responsivo</h4>
+                    <IconUsers width={48} height={48} className="text-primary" />
+                    <h4 className="text-white font-bold ">Trabalho em Equipe</h4>
                     <p className="text-secondary text-sm">
-                        Conhecimento em design responsivo para criar aplicativos e sites visualmente atraentes e funcionais em dispositivos diversos.
-
+                    Valorizo o trabalho em equipe, contribuindo harmoniosamente para o alcance de metas compartilhadas, ao mesmo tempo em que apoio e reconheço os esforços dos colegas.
                     </p>
 
                     <div className="hidden after:-z-10  after:transition group-hover:block after:bg-btn1  after:absolute after:w-full after:h-full after:top-0 after:left-0 after:rounded-xl after:origin-bottom after:-rotate-3" />
 
                 </div>
 
-                <div className="bg-cards relative p-10 rounded-xl flex flex-col gap-3 w-[350px] group">
+                <div className="bg-cards relative p-10 rounded-xl flex flex-col gap-3 w-[350px] h-[271px] group">
                     <IconRocketSharp width={48} height={48} className="text-primary" />
                     <h4 className="text-white font-bold ">Aprendizado contínuo</h4>
                     <p className="text-secondary text-sm">Comprometido com o aprendizado contínuo, busco constantemente expandir meus conhecimentos e habilidades.</p>
