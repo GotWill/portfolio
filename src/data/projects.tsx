@@ -26,6 +26,7 @@ import IconPostgresql from "@/icons/iconPostgresql";
 import IconSquareGithub from "@/icons/iconGitHub";
 import IconWordpress from "@/icons/iconWordPress";
 import IconNodeJs from "@/icons/iconNode";
+import IconRubyonrails from "@/components/IconRubyonrails";
 
 
 
@@ -196,6 +197,12 @@ export const itemsSkilTec: SkilsTech[] = [
         title: 'Wordpress',
         imagePath: <IconWordpress fill="#288eb0" width={60} height={60}/>,
         bg: 'wordpress'
+    },
+    {
+        id: 16,
+        title: 'Rubyonrails',
+        imagePath: <IconRubyonrails fill="#D30001" width={60} height={60}/>,
+        bg: 'ruby'
     }
     
 
