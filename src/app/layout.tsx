@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Montserrat({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Willian Pereira | Front-End',
+  title: 'Willian Pereira | Full-Stack developer',
   description: 'Desenvolvedor Software'
 }
 
