@@ -121,11 +121,11 @@ export default function Header() {
                 <span className="text-secondary text-xl text-center">Desenvolvimento de software sob medida: Transformando sua visão em realidade.</span>
 
                 <div className="flex items-center gap-5">
-                   <Btn title="CONTATO"/>
+                   <Btn title="CURRICULO"/>
 
 
-                    <Link to="servicos" className="bg-transparent border-2 border-primary py-3 px-3 rounded-md text-white font-bold hover:bg-btn1-hover uppercase cursor-pointer">
-                        Serviços
+                    <Link to="contato" className="bg-transparent border-2 border-primary py-3 px-3 rounded-md text-white font-bold hover:bg-btn1-hover uppercase cursor-pointer">
+                       CONTATO
                     </Link>
                 </div>
             </div>
