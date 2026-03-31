@@ -42,7 +42,7 @@ export default function Foother() {
                     <Link href="https://www.linkedin.com/in/willian21/" target="_blank" className="hover:-translate-y-4 hover:transition hover:ease-in-out w-10 h-10 bg-about flex justify-center  items-center rounded group hover:bg-btn1">
                         <IconLinkedin width={25} height={30} className="text-primary group-hover:text-white" />
                     </Link>
-                    <Link href="/cv.pdf" target="_blank" className="hover:-translate-y-4 hover:transition hover:ease-in-out w-10 h-10 bg-about flex justify-center  items-center rounded group hover:bg-btn1">
+                    <Link href="/cv-att.pdf" target="_blank" className="hover:-translate-y-4 hover:transition hover:ease-in-out w-10 h-10 bg-about flex justify-center  items-center rounded group hover:bg-btn1">
                         <IconFilePdf width={25} height={30} className="text-primary group-hover:text-white" />
                     </Link>
 
